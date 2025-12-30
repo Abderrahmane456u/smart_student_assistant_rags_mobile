@@ -95,11 +95,11 @@ class AboutPage extends StatelessWidget {
                     children: [
                       const CircleAvatar(
                         radius: 45,
-                        backgroundImage: AssetImage("images/profile.png"),
+                        backgroundImage: AssetImage("images/profile.jpg"),
                       ),
                       const SizedBox(height: 12),
                       const Text(
-                        "Said Ouchrif",
+                        "Abderrahmane Houdoud",
                         style: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -112,7 +112,7 @@ class AboutPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 12),
                       const Text(
-                        "Application développée par l’étudiant Said Ouchrif "
+                        "Application développée par l’étudiant houdoud abderrahmane "
                         "dans un cadre pédagogique à l’Université Mundiapolis.",
                         textAlign: TextAlign.center,
                         style: TextStyle(fontSize: 15),

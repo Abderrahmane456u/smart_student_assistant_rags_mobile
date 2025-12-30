@@ -13,11 +13,11 @@ class AppDrawer extends StatelessWidget {
       child: ListView(
         children: [
           UserAccountsDrawerHeader(
-            accountName: const Text("Said Ouchrif"),
-            accountEmail: const Text("saidouchrif16@gmail.com"),
+            accountName: const Text("Abderrahmane Houdoud"),
+            accountEmail: const Text("abderrahmane.houdoud@gmail.com"),
             currentAccountPicture: const CircleAvatar(
               radius: 30,
-              backgroundImage: AssetImage('images/profile.png'),
+              backgroundImage: AssetImage('images/profile.jpg'),
             ),
           ),
 
