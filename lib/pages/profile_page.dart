@@ -30,7 +30,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   SizedBox(height: 12),
                   Text(
-                    "Said Ouchrif",
+                    "houdoud abderrahmane",
                     style: TextStyle(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
@@ -38,7 +38,7 @@ class ProfilePage extends StatelessWidget {
                   ),
                   SizedBox(height: 4),
                   Text(
-                    "saidouchrif16@gmail.com",
+                    "abderahd12@gmail.com",
                     style: TextStyle(color: Colors.grey),
                   ),
                 ],
@@ -52,14 +52,14 @@ class ProfilePage extends StatelessWidget {
               context,
               icon: Icons.person,
               title: "Nom complet",
-              value: "Said Ouchrif",
+              value: "houdoud abderrahmane",
             ),
 
             _buildInfoCard(
               context,
               icon: Icons.email,
               title: "Email",
-              value: "saidouchrif16@gmail.com",
+              value: "abderahd12@gmail.com",
             ),
 
             _buildInfoCard(
